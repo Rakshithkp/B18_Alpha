@@ -1,0 +1,12 @@
+<h1 class-="container"><fa-icon [icon]="xyz"></fa-icon>BOOK KART</h1> 
+
+
+ 
+  <button class="btn btn-primary" (click)="getlist()">GET LIST</button>
+  <button class="btn btn-primary" (click)="addList()">GET CATEGORY LIST</button>
+  <button class="btn btn-primary" (click)="postList()">POST LIST</button>
+
+ 
+  <div class="col" > 
+  <div style="border: 0.1em solid;width:50%;">{{list| json}}</div>
+   </div>
