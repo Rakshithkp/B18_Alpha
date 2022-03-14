@@ -24,7 +24,7 @@ export class LoggingInterceptor implements HttpInterceptor {
         if(event instanceof HttpResponse){
           const endTime=(new Date()).getTime();
           const diff=endTime-startTime;
-         console.log(event.url + 'succeded in' + diff + 'ms');}
+         console.log(event.url + 'succeded in' + diff + 'ms');} 
           return event;
       })
     );

@@ -28,10 +28,11 @@ export class BookComponent implements OnInit {
   addList(){
     this.apiservice.getCategory().subscribe(res=>{
       this.list=res;
+      
     })
   }
 
-  postList(){
+  postList(){ 
     this.apiservice.postBook().subscribe(res=>{
       this.post=res;
     })

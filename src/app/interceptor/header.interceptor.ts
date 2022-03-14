@@ -16,7 +16,7 @@ export class HeaderInterceptor implements HttpInterceptor {
     const API_KEY="ABC-123"
     const req =request.clone({
       setHeaders:{API_KEY},
-    })
+    }) 
     return next.handle(req);
   }
 }

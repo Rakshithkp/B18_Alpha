@@ -19,7 +19,7 @@ import { ErrorInterceptor } from './interceptor/error.interceptor';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
+    AppRoutingModule, 
     BrowserAnimationsModule,
     FontAwesomeModule,
     HttpClientModule
