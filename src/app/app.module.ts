@@ -16,7 +16,7 @@ import { ErrorInterceptor } from './interceptor/error.interceptor';
   declarations: [
     AppComponent,
     BookComponent,
-  ],
+  ], 
   imports: [
     BrowserModule,
     AppRoutingModule, 

@@ -12,7 +12,7 @@ export class BookComponent implements OnInit {
   loading: boolean=false;
   error: string='';
   booklist: any;
-  list: any;
+  list: any; 
   post: any;
 
   constructor(private apiservice: ApiServicesService) {}

@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ApiServicesService {
-  headers = new HttpHeaders({
+  headers = new HttpHeaders({ 
     'accept': 'application/json', 
   })
   

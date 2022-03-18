@@ -10,7 +10,7 @@ import { Observable } from 'rxjs';
 @Injectable()
 export class HeaderInterceptor implements HttpInterceptor {
 
-  constructor() {}
+  constructor() {} 
 
   intercept(request: HttpRequest<unknown>, next: HttpHandler): Observable<HttpEvent<unknown>> {
     const API_KEY="ABC-123"
